@@ -7,13 +7,15 @@ const WebpackPwaManifest = require('webpack-pwa-manifest');
 module.exports = Merge(ProdConfig, {
   plugins: [
     new WebpackPwaManifest({
-      name: 'Super-website',
-      short_name: 'Super PWA',
-      description: 'A super website made with love',
+      name: 'the-soft-stuff',
+      short_name: 'The Soft Stuff',
+      description: 'Openly-licensed job descriptions, interview questions, career ladders, tools and resources.
+
+      Like npm, but for technical managers and leaders.',
       orientation: "portrait",
       display: "standalone",
       start_url: "/",
-      theme_color: "#c0ffee",
+      theme_color: "#d6e2f3",
       background_color: "#ffffff",
       icons: [
         {

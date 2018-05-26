@@ -1,182 +1,28 @@
-<p align="center">
-  <img src="https://github.com/sandoche/Jekyll-webpack-boilerplate/blob/master/icon.png?raw=true" width="200"/>
-</p>
-<h1 align="center">
-  Jekyll-webpack-boilerplate
-</h1>
+# The Soft Stuff
+Openly-licensed job descriptions, interview questions, career ladders, tools and resources.
 
-A Jekyll boilerplate supercharged with Webpack to build modern performant websites (including Progressive Web Apps).
-Read more about how this boilerplate has been built: https://medium.com/learning-lab/5-how-i-learnt-webpack-3-and-created-a-jekyll-and-webpack-boilerplate-edd86645fd5e
+Like npm, but for technical managers and leaders.
 
-## Features
+## About this project
+As technical professionals we're rarely expected to implement entire solutions completely from scratch.
 
-**Improved workflow**
-* Webpack working along with Jekyll
-* BrowserSync live reload
+Need to implement a machine learning program? Start with [TensorFlow](https://www.tensorflow.org/).
 
-**Optimized Style and SASS**
-* SASS Style
-* PostCSS Auto Preffixer
-* CSS minified
-* Critical CSS Path added to the main template
+Automate your entire development, test and deployment workflow? [Sure](https://jenkins.io/).
 
-**ES6 & Optimization**
-* ES6 Babel
-* JS minified and uglified
-* ES Lint
+Full-featured application framework? [Plenty](https://rubyonrails.org/) [of](https://angularjs.org/) [options](https://www.meteor.com/) [in](https://www.djangoproject.com/) [any](https://laravel.com/) [language](https://projects.spring.io/spring-framework/) [you](https://www.asp.net) [use](https://www.reactnative.com/).
 
-**Images optimized**
-* Imagemin, images optimizations
+Heck, you don't even need to write your own library to [pad a string](https://www.npmjs.com/package/left-pad).
 
-**Write less code**
-* Theme color in config
-* Favicon generated automatically
-* Google Analytics setup in config file (optional)
-* Doorbell setup in config file (optional)
-* Cookie consent setup in config file (optional)
+Now that you're managing staff, why are you staring at a blank screen trying to write a job description for a Senior Software Engineer?
 
-**SEO Ready**
-* SEO Plugin Jekyll
-* Sitemap generated
-* Accelerated Mobile Pages enabled for Posts
+As technical professionals we get better at our jobs and we get better as a community by learning from each other and freely sharing the tools we use. Why should we stop doing this when we move in to management?
 
-**Write better code**
-* Internationalization plugin
+The Soft Stuff collects templates, tools and processes that you can implement in your organization if they don't already exist. Licenses are specified for everything linked or included so you know your rights to modify and use what you find.
 
-**Progressive Web Apps (optional)**
-* Generation of the Manifest
-* Generation of Service worker
+## Getting involved
+Do you have a resource to share? Pull Requests are very welcome. If you know of a good resource or tool for managers, you can just PR a link to it.
 
-**Easy to deploy**
-* Easy deployement with Netlify
+If you are sharing something that's not already available online, please note that content shared on this site is [openly-licensed](CONTENT-LICENSE.md). You can specify a different license or no license at all - please indicate your choice in the PR, or I'll assume you want it released under our license.
 
-## Prerequisites
-The following tools should be installed before starting:
-* NodeJS, npm, yarn
-* Ruby, Gem, Bundler
-* Jekyll
-* Sass
-
-## Quick start
-1. Make sure you have all the prerequisites above installed.
-2. Clone this repo using `git clone https://github.com/sandoche/Jekyll-webpack-boilerplate.git`
-3. Move to the appropriate directory: `cd Jekyll-webpack-boilerplate`.
-4. Run `yarn install`  (you can also do `npm install` if you don't have yarn) and `bundler install` in order to install dependencies and clean the git repo.
-5. Run `yarn start` to start the development server (or use `npm start`).
-
-## Development
-To start the development server just run  `yarn start`
-
-### Folder structure
-```
-.
-├── 404.html
-├── about.md
-├── blog.md
-├── config <--- This folder contains the different Webpack config files
-│   ├── optimization-fix <--- A fix for optimization, do not delete this folder
-│   ├── postcss.config.js <--- Post css config
-│   ├── sw.config.js <--- The service worker config file
-│   ├── webpack.common.js <--- The common Webpack config file for all the environment
-│   ├── webpack.dev.js <--- Dev Webpack environment config file
-│   ├── webpack.optim.js <--- This is used to add the css critical path in the default template
-│   ├── webpack.prod.js <--- Prod Webpack environment config file
-│   └── webpack.pwa.js <--- Please edit this file if you want a PWA
-├── _config.yml <--- The Jekyll config file that you need to set up
-├── Gemfile
-├── Gemfile.lock
-├── _i18n <--- Contains your posts and data in the language you need (check below how to remove it)
-├── _images <--- Put all your images here, you will access them with this path /assets/images/
-│   ├── icon.png <--- Replace this with your icon
-│   └── large-icon.png <--- Replace this with your Facebook Open Graph picture
-├── icon.png <--- Same with this one
-├── _includes
-├── index.md
-├── _layouts
-│   ├── amp.html <--- The layout for Accelerated mobile page
-│   ├── blog.html
-│   ├── home.html
-│   ├── page.html
-│   └── post.html
-├── LICENSE
-├── package.json <--- Update this file with your information especially the name which is used for the meta tags
-├── README.md
-├── _scss <--- Put your partials here
-│   └── _default.scss
-├── _src <--- This folder contains your JS and SASS entry points
-│   ├── index.js
-│   ├── index.scss
-│   └── template
-│       └── default.html <--- Here is the main default template, feel free to edit it but do not delete it
-├── webpack.config.js
-├── yarn-error.log
-└── yarn.lock
-```
-You can see above the basic structure of the boilerplate and the main differences with the official Jekyll folder structure
-
-### Configurations
-* The required configurations are all in `_config.yml`
-* Also edit `package.json` the name is used in the meta tags
-* If you want a `manifest.json` file please edit `config/webpack.pwa.js`
-* Replace the different icon by yours in `_images` and in the root folder
-
-### Assets
-* SCSS partials should be located in `_scss` for better reading
-* Put all your images in `_images` the content of this folder will be moved to the `_site/assets/images` so you can access them with this path `/assets/images/**` in your templates, check the examples
-* Put all your Javascript files inside `_src` and import them from `index.js` or you can also add them as a new entry point in your webpack configuration file
-
-### Internationalization
-* All the posts should be there in inside `_i18n` folder inside its language, check the boilerplate examples
-* You can put your variables inside `_i18n/en.yml` (replace en with your language) and call them in your template with `{% t variable_name.sub_variable %}`
-* You can remove the plugin by removing `gem 'jekyll-multiple-languages-plugin'` from `gemfile` and `jekyll-multiple-languages-plugin` from `plugins` in `_config.yml`
-* We invite you to read the very good [official documentation](https://github.com/Anthony-Gaudino/jekyll-multiple-languages-plugin) of the plugin Jekyll multiple language plugin
-
-## Build
-
-### Optimized website
-To build the website run the following line
-
-```
-yarn build
-```
-The built website will be in `_site` folder.
-
-You can also run a local server to test it with this command
-```
-yarn serve:dist
-```
-
-### PWA
-If you want to build a PWA (including the manifest.json and the service worker) run the following. Please ensure to have configured this file `config/webpack.pwa.js`
-The built website will be in `_site` folder.
-```
-yarn build:pwa
-```
-
-### Clean assets & \_site folders
-This will remove the generated folders
-```
-yarn clean:project
-```
-
-## Known issues
-* Jekyll watch doesn't reload / rebuild when a translation file is updated inside `_i18n` folder, I recommand to remove `jekyll-multiple-languages-plugin` if you don't want a multi language website and if you want to watch / rebuild faster. Otherwise close and start  `yarn start` to rebuild and see your changes from `_i18n`
-* Build in netlify, yarn is not working, here is the workaround, replace `yarn build` by `npm run-script build` and remove `yarn.lock`
-* The critical CSS Path may show some weird behavior when the page is loading, if you want to remove it remove `webpack --env=optim  --progress --profile --colors` in `package.json` `build`, and `build:pwa` scripts.
-* Jekyll webpack boilerpalte does't work on windows for now
-
-## Websites using Jekyll Webpack Boilerplate
-* SConférenicers - https://sconferenciers.com
-* Typster - https://typster.xyz
-* Bico - https://bico.me
-
-## Other documentations
-* [Jekyll](https://jekyllrb.com/)
-* [Webpack](https://webpack.js.org/)
-* [Jekyll multiple languages plugin](https://github.com/Anthony-Gaudino/jekyll-multiple-languages-plugin)
-* [Jekyll SEO tag](https://github.com/jekyll/jekyll-seo-tag)
-* [BrowserSync Webpack plugin](https://www.npmjs.com/package/browser-sync-webpack-plugin)
-* [PostCSS](http://postcss.org/)
-
-## Buy me a beer
-If you like this project [Buy me a beer](https://paypal.me/kanbanote)
+If you are not a github user and want to share or post something to The Soft Stuff, please contact me on email: jwrubel (at) gmail dot com or  [twitter](https://twitter.com/jameswrubel) and I'll be happy to help review and incorporate your change in whatever method makes the most sense, even if that's just a link to something you've already published.
