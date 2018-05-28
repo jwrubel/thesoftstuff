@@ -1,9 +1,16 @@
 home:
   header:
-    headline: Your beautiful headline
+    headline: The Soft Stuff
+    test: nothing
+    subhead_one: Openly-licensed job descriptions, interview questions, career ladders, tools and resources.
+    subhead_two: Like npm, but for technical managers and leaders.
     call_to_action:
-      title: Check out our blog
-      link: /blog
+      title: Learn More
+      link: '#learn-more'
+  section:
+    call_to_action:
+      title: To the tools!
+      link: '/tools.html'
 
 footer:
-  love: 'Made with <span class="accent">❤</span>'
+  love: 'Made with ❤️ by <a href="https://twitter.com/jameswrubel">James Wrubel</a>, who wishes this existed when he was starting to manage people.'
