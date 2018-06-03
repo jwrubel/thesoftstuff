@@ -29,6 +29,10 @@ social:
     - https://twitter.com/jameswrubel
     - https://github.com/jwrubel
 
+collections:
+  content:
+    output: true
+
 languages: ["en"]
 ampdir: amp
 

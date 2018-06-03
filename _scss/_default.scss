@@ -4,6 +4,7 @@ $container-width: 1200px;
 $container-padding: 30px;
 
 $primary-color: #d6e2f3;
+@blue: #d6e2f3;
 $text-color: #040707;
 $link-color: #90969b;
 
@@ -47,39 +48,7 @@ section {
 }
 section—first { height: 90vh; }
 
-a {
-  color: $link-color;
-  text-decoration: none;
-  font-size: $font-sm;
-
-  &:hover {
-    color: $primary-color;
-  }
-}
-
-h2 {
-  font-size: 2em;
-  -webkit-font-smoothing: antialiased;
-}
-
-h3 {
-  font-size: 1em;
-  -webkit-font-smoothing: antialiased;
-}
-
 // Shared
-
-.button {
-  display: inline-block;
-  border: 1px solid $primary-color;
-  border-radius: 50px;
-  padding: 15px 30px;
-  font-weight: 300;
-
-  &:hover {
-    background-color: lighten($primary-color, 10%);
-  }
-}
 
 .accent {
   color: $primary-color;
@@ -120,7 +89,7 @@ h3 {
   div {
     padding: 1em;
   }
-  
+
   .title {
     display: flex;
     flex: 1;
