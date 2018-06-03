@@ -3,23 +3,24 @@ layout: default
 ---
 
 <section class="home">
-  <header class="home__headline-container">
-    <h1 class="home__headline">{% t home.header.headline %}</h1>
-    <div class="home__cta">
-      <p>{% t home.header.subhead_one %}</p>
-      <p>{% t home.header.subhead_two %}</p>
+  <div class="ui relaxed doubling stackable grid">
+    <div class="eight wide column">
+      <h1 class="ui header">{% t home.header.headline %}</h1>
+      <h4 class="ui header">{% t home.header.subhead_one %}</h4>
+      <h4 class="ui header">{% t home.header.subhead_two %}</h4>
+      <a href="{% t home.header.call_to_action.link %}"><button class="ui blue basic large button">{% t home.header.call_to_action.title %}</button></a>
     </div>
-
-    <a href="{% t home.header.call_to_action.link %}"><button class="ui blue basic large button">{% t home.header.call_to_action.title %}</button></a>
-  </header>
+    <div class="eight wide column">
+      <img class="ui centered medium image" alt="open box with templates and other web tools flowing in to it" src="assets/images/toolbox.svg">
+    </div>
+  </div>
 </section>
 
 <section class="content">
 <a name="learn-more"></a>
-<h2>As technical professionals we're rarely expected to implement entire solutions completely from scratch.</h2>
-
-<div class="detail">
-  <div class="detail-text">
+<h2 class="ui header">As technical professionals we're rarely expected to implement entire solutions completely from scratch.</h2>
+<div class="ui relaxed doubling middle aligned stackable grid">
+  <div class="eight wide column">
     <p>Need to implement a machine learning program? Start with <a href="https://www.tensorflow.org/">TensorFlow</a>.</p>
 
     <p>Automate your entire development, test and deployment workflow? <a href="https://jenkins.io/">Sure</a>.</p>
@@ -29,29 +30,29 @@ layout: default
     <p>Heck, you don't even need to write your own library to <a href="https://www.npmjs.com/package/left-pad">pad a string</a>.
     </p>
   </div>
-  <div class="detail-image">
-    <img src="assets/images/toy-bricks.png" />
+  <div class="eight wide column">
+    <img class="ui fluid image" alt="man staching blocks to form a wall" src="assets/images/building_blocks.svg">
   </div>
 </div>
 </section>
 <section class="content">
-  <h2>Now that you're managing staff, why are you staring at a blank screen trying to write a job description for a Senior Software Engineer?</h2>
-  <div class="detail">
-    <div class="detail-image">
-      <img src="assets/images/community.png" />
+  <h2 class="ui header">Now that you're managing staff, why are you staring at a blank screen trying to write a job description for a Senior Software Engineer?</h2>
+  <div class="ui relaxed doubling middle aligned stackable grid">
+    <div class="eight wide column">
+      <img class="ui fluid image" alt="man and woman looking at a monitor, learning from each other" src="assets/images/connected.svg">
     </div>
-    <div class="detail-text">
+    <div class="eight wide column">
       <p>As technical professionals we get better at our jobs and we get better as a community by learning from each other and freely sharing the tools we use.</p>
       <p>Why should we stop doing this when we move in to management?</p>
     </div>
-  </div>
-  <div class="detail">
-    <div class="detail-text">
+    <div class="eight wide column">
       <p>The Soft Stuff collects templates, tools and processes that you can implement in your organization if they don't already exist. Licenses are specified for everything linked or included so you know your rights to modify and use what you find.</p>
     </div>
-    <div class="detail-image">
-      <img src="assets/images/cubes.png" />
+    <div class="eight wide column">
+      <img class="ui fluid image" alt="group of people collecting parts of web pages" src="assets/images/collection.svg">
+    </div>
+    <div class="sixteen wide column">
+        <a href="{% t home.section.call_to_action.link %}"><button class="ui blue basic large button">{% t home.section.call_to_action.title %}</button></a>
     </div>
   </div>
-  <a href="{% t home.section.call_to_action.link %}"><button class="ui blue basic large button">{% t home.section.call_to_action.title %}</button></a>
 </section>
