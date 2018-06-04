@@ -1,0 +1,23 @@
+# Ruby CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-ruby/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:node:8.9.1
+    branches:
+      only:
+        - master
+    steps:
+      - checkout
+      - run:
+          name: "Checking Versions"
+          command: |
+            node --version
+            npm --version
+      - run:
+        name: build site
+        command: npm run-script build
+      - run: bash ./bin/deploy.sh
