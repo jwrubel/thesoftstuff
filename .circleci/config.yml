@@ -18,6 +18,6 @@ jobs:
             node --version
             npm --version
       - run:
-        name: "build site"
-        command: 'npm run-script build'
+          name: "build site"
+          command: 'npm run-script build'
       - run: 'bash ./bin/deploy.sh'
