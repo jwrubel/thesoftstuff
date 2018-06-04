@@ -18,6 +18,9 @@ jobs:
             node --version
             npm --version
       - run:
+          name: "bundle install"
+          command: 'bundle install'
+      - run:
           name: "build site"
           command: 'npm run-script build'
       - run: 'bash ./bin/deploy.sh'
