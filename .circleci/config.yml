@@ -19,7 +19,7 @@ jobs:
             npm --version
       - run:
           name: "bundle install"
-          command: 'bundle install'
+          command: 'bundle install --full-index'
       - run:
           name: "build site"
           command: 'npm run-script build'
