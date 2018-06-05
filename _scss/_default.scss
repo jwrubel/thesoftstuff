@@ -49,9 +49,7 @@ section—first { height: 90vh; }
 
 // Shared
 
-.accent {
-  color: $primary-color;
-}
+.large.text { font-size: 1.2rem; }
 
 .content {
 
@@ -59,56 +57,6 @@ section—first { height: 90vh; }
 
 }
 
-.detail {
-  display: flex;
-  flex-direction: row;
-}
-.detail-text {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-}
-
-.detail-image {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-
-  img {
-    width: 8em;
-  }
-}
-
-.row {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-
-  div {
-    padding: 1em;
-  }
-
-  .title {
-    display: flex;
-    flex: 1;
-  }
-
-  .contributor {
-    display: flex;
-    flex: 1;
-  }
-
-  .description {
-    display: flex;
-    flex: 3;
-  }
-
-  .license {
-    display: flex;
-    flex: 1;
-  }
-}
 // Components & pages
 
 .navigation {
