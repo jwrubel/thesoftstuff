@@ -7,7 +7,7 @@ permalink: /tools.html
 
 <p>Wrote a job description you like? Want to share your interview questions? Even if you just want to link to something on the web, <a href="contributing.html">pull requests</a> are welcome! If you want to contribute but aren't comfortable with Github, you can <a href="contributing.html#contact">contact me</a> and I'll help out.</p>
 
-<h2>Job Descriptions</h2>
+<h2 class="ui header">Job Descriptions</h2>
 <a name="job_descriptions"></a>
 <div class="ui segment">
   <p>This section contains links to job descriptions for various technical roles. We don't include links to posts on job boards because those aren't guaranteed to be accessible beyond the duration of the post.</p>
@@ -22,7 +22,7 @@ permalink: /tools.html
       </a>
     </div>
     <div class="content">
-      <a href="https://github.com/todogroup/job-descriptions" target="_blank" class="header">Open Source Program Job Descriptions <i class="external alternte icon"></i></a>
+      <a href="https://github.com/todogroup/job-descriptions" target="_blank" class="header">Open Source Program Job Descriptions <i class="external alternate icon"></i></a>
       <div class="description">
         <p>A listing of open source program/office job descriptions from the industry. Roles include everything from open source evangelist to program manager. Companies include Microsoft, twitter, Box, Capital One, and Huawei. Contents are in markdown format.</p>
       </div>
@@ -43,7 +43,7 @@ permalink: /tools.html
   <div class="item">
     <div class="content">
       <a href="https://enlist.io/resources/tag/information-technology-job-templates/" target="_blank" class="header">Various Technical Job Description Templates
-      <i class="external alternte icon"></i></a>
+      <i class="external alternate icon"></i></a>
       <div class="meta">
         <div class="ui grey label">Source
           <a class="detail" href="http://enlist.io/" target="_blank">Enlist</a>
@@ -70,11 +70,12 @@ permalink: /tools.html
             <a href="https://enlist.io/resources/frontend-engineer-job-description-template/" target="_blank" class="item">Front-end Engineer</a>
           </div>
         </p>
+        <p>For those who are looking for them, Enlist also offers templates for <a href="https://enlist.io/resources/job-description-templates/finance" target="_blank">finance</a>, <a href="https://enlist.io/resources/job-description-templates/marketing" target="_blank">marketing</a>, <a href="https://enlist.io/resources/job-description-templates/legal" target="_blank">legal</a>, <a href="https://enlist.io/resources/job-description-templates/operations" target="_blank">operations</a>, <a href="https://enlist.io/resources/job-description-templates/human-resources" target="_blank">H.R.</a>, <a href="https://enlist.io/resources/job-description-templates/design" target="_blank">design</a>, and <a href="https://enlist.io/resources/job-description-templates/health" target="_blank">healthcare</a>.
       </div>
     </div>
   </div>
 </div>
-<h2>Career Ladders</h2>
+<h2 class="ui header">Career Ladders</h2>
 <a name="career_ladders"></a>
 <div class="ui segment">
   <p>This section contains links to career ladders and position expectations for technical staff. Not sure what a career ladder is or why your organization should have one? The <a href="https://en.wikipedia.org/wiki/Career_ladder" target="_blank">Wikipedia page</a> is a good place to start your research.</p>
@@ -89,7 +90,7 @@ permalink: /tools.html
       </a>
     </div>
     <div class="content">
-      <a href="https://levels.patreon.com/" target="_blank">Patreon's Engineering Career Ladder Microsite <i class="external alternte icon"></i></a>
+      <a href="https://levels.patreon.com/" target="_blank">Patreon's Engineering Career Ladder Microsite <i class="external alternate icon"></i></a>
       <div class="description">
         <p>Expectations for 6 levels of individual contributor, across 5 categories; Technical, Execution, Collaboration & Communication, Influence, and Maturity. Searchable and filterable. A fantastic resource and highly recommended.</p>
       </div>
@@ -114,7 +115,7 @@ permalink: /tools.html
       </a>
     </div>
     <div class="content">
-      <a href="https://github.com/ex-ttmers/values-and-expectations/blob/master/engineering_manager.md" target="_blank">Engineering Manager <i class="external alternte icon"></i></a>
+      <a href="https://github.com/ex-ttmers/values-and-expectations/blob/master/engineering_manager.md" target="_blank">Engineering Manager <i class="external alternate icon"></i></a>
       <div class="description">
         <p>Expectations for an Engineering Manager at Think Through Math. Note that some expectations are industry-specific.</p>
       </div>
@@ -139,7 +140,7 @@ permalink: /tools.html
       </a>
     </div>
     <div class="content">
-      <a href="https://github.com/ex-ttmers/values-and-expectations/blob/master/software_engineer.md" target="_blank">Software Engineer <i class="external alternte icon"></i></a>
+      <a href="https://github.com/ex-ttmers/values-and-expectations/blob/master/software_engineer.md" target="_blank">Software Engineer <i class="external alternate icon"></i></a>
       <div class="description">
         <p>Expectations for a Software Engineer at Think Through Math. Note that some expectations are industry-specific.</p>
       </div>
@@ -164,7 +165,7 @@ permalink: /tools.html
       </a>
     </div>
     <div class="content">
-      <a href="https://github.com/ex-ttmers/values-and-expectations/blob/master/senior_software_engineer.md" target="_blank">Senior Software Engineer <i class="external alternte icon"></i></a>
+      <a href="https://github.com/ex-ttmers/values-and-expectations/blob/master/senior_software_engineer.md" target="_blank">Senior Software Engineer <i class="external alternate icon"></i></a>
       <div class="description">
         <p>Expectations for a Senior Software Engineer at Think Through Math. Note that some expectations are industry-specific.</p>
       </div>
@@ -183,11 +184,38 @@ permalink: /tools.html
     </div>
   </div>
 </div>
-<h2>Interview Process Descriptions</h2>
+<h2 class="ui header">Interview Process Descriptions</h2>
 
-<h2>Technical Interview Take-Home Tests & Scenarios</h2>
-
-<h2>Interview Question Banks</h2>
+<h2 class="ui header">Technical Interview Take-Home Tests & Scenarios</h2>
+<a name="interview_scenario"></a>
+<div class="ui segment">
+  <p>This section contains links to interview scenarios and take-home tests. Typically these are used in conjunction with more traditional interview questions to try and evaluate a candidate's skills. Be careful however - interview scenarios can be controversial because they take a lot of a candidate's time and can discriminate against candidates who have responsibilities that limit their availability to work off-hours.</p>
+  <p>If you have a scenario you'd like to share, either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page using an existing interview question link as a template.</p>
+</div>
+<div class="ui divider"></div>
+<div class="ui divided items">
+  <div class="item">
+    <div class="content">
+      <a href="http://www.venturegrit.com/what-everybody-ought-to-know-about-the-product-manager-case-interview/" target="_blank">Product Manager Case Interview <i class="external alternate icon"></i></a>
+      <div class="description">
+        <p>An article on screening product managers. It has a pretty good case interview scenario included although it's not specific. This is probably not enough for you to use to write a Product Manager interview scenario by itself, but it will definitely help inform your thinking, and there are very few open resources in this area.</p>
+      </div>
+      <div class="extra">
+        <div class="meta">
+          <div class="meta">
+            <div class="ui grey label">Source
+              <a class="detail" href="http://www.venturegrit.com/author/andy/" target="_blank">Continuum Analytics, Inc.</a>
+            </div>
+            <div class="ui grey label">License
+              unknown
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<h2 class="ui header">Interview Question Banks</h2>
 <a name="interview_questions"></a>
 <div class="ui segment">
   <p>This section contains links to questions you can use to develop technical questions for candidates, either to ask in an interview or for candidates to fill out as part of an application.</p>
@@ -202,7 +230,7 @@ permalink: /tools.html
       </a>
     </div>
     <div class="content">
-      <a href="https://github.com/ContinuumIO/interview-questions" target="_blank">Continuum Analytics interview questions <i class="external alternte icon"></i></a>
+      <a href="https://github.com/ContinuumIO/interview-questions" target="_blank">Continuum Analytics interview questions <i class="external alternate icon"></i></a>
       <div class="description">
         <p>A list of software-developer-specific interview questions, meant to be answered before an interview (as part of the resume submission).</p>
       </div>
@@ -229,7 +257,7 @@ permalink: /tools.html
       </a>
     </div>
     <div class="content">
-      <a href="https://h5bp.github.io/Front-end-Developer-Interview-Questions/" target="_blank">Front-end developer interview questions <i class="external alternte icon"></i></a>
+      <a href="https://h5bp.github.io/Front-end-Developer-Interview-Questions/" target="_blank">Front-end developer interview questions <i class="external alternate icon"></i></a>
       <div class="description">
         <p>An extremely in-depth and well-curated list of interview questions mainly for front-end web developers. Covers HTML, CSS, JS, coding, and 'fun' categories.</p>
       </div>
@@ -254,7 +282,7 @@ permalink: /tools.html
       </a>
     </div>
     <div class="content">
-      <a href="https://github.com/dashvlas/awesome-ios-interview" target="_blank">iOS developer interview questions <i class="external alternte icon"></i></a>
+      <a href="https://github.com/dashvlas/awesome-ios-interview" target="_blank">iOS developer interview questions <i class="external alternate icon"></i></a>
       <div class="description">
         <p>iOS developer interview questions. Unfortunately the content is only available as <a href="http://appstore.com/awesomeinterview" target="_blank">an app</a>.</p>
       </div>
@@ -274,12 +302,16 @@ permalink: /tools.html
   </div>
 </div>
 
-<h2>1-1 Meeting Topics & Questions</h2>
+<h2 class="ui header">1-1 Meeting Topics & Questions</h2>
 
-<h2>10% Time/Hackathon Processes</h2>
+<h2 class="ui header">Diversity &amp; Inclusion</h2>
 
-<h2>Post-Natum/Post-Mortem Meeting Processes</h2>
+<h2 class="ui header">Objectives &amp; Key Results (OKR)</h2>
 
-<h2>Exit Interviews</h2>
+<h2 class="ui header">10% Time/Hackathon Frameworks</h2>
 
-<h2>Other Technical Management Resources</h2>
+<h2 class="ui header">Post-Natum/Post-Mortem Meeting Processes</h2>
+
+<h2 class="ui header">Exit Interviews</h2>
+
+<h2 class="ui header">Links &amp; Other Resources</h2>
