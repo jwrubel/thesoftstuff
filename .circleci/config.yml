@@ -11,6 +11,9 @@ jobs:
       only:
         - master
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "f5:9e:0f:82:19:74:75:f2:94:ce:98:11:78:37:1e:f3"
       - checkout
       - run:
           name: "Checking Versions"
