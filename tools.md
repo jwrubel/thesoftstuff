@@ -90,7 +90,7 @@ permalink: /tools.html
       </a>
     </div>
     <div class="content">
-      <a href="https://levels.patreon.com/" target="_blank">Patreon's Engineering Career Ladder Microsite <i class="external alternate icon"></i></a>
+      <a href="https://levels.patreon.com/" target="_blank" class="header">Patreon's Engineering Career Ladder Microsite <i class="external alternate icon"></i></a>
       <div class="description">
         <p>Expectations for 6 levels of individual contributor, across 5 categories; Technical, Execution, Collaboration & Communication, Influence, and Maturity. Searchable and filterable. A fantastic resource and highly recommended.</p>
       </div>
@@ -115,7 +115,7 @@ permalink: /tools.html
       </a>
     </div>
     <div class="content">
-      <a href="https://github.com/ex-ttmers/values-and-expectations/blob/master/engineering_manager.md" target="_blank">Engineering Manager <i class="external alternate icon"></i></a>
+      <a href="https://github.com/ex-ttmers/values-and-expectations/blob/master/engineering_manager.md" target="_blank" class="header">Engineering Manager <i class="external alternate icon"></i></a>
       <div class="description">
         <p>Expectations for an Engineering Manager at Think Through Math. Note that some expectations are industry-specific.</p>
       </div>
@@ -140,7 +140,7 @@ permalink: /tools.html
       </a>
     </div>
     <div class="content">
-      <a href="https://github.com/ex-ttmers/values-and-expectations/blob/master/software_engineer.md" target="_blank">Software Engineer <i class="external alternate icon"></i></a>
+      <a href="https://github.com/ex-ttmers/values-and-expectations/blob/master/software_engineer.md" target="_blank" class="header">Software Engineer <i class="external alternate icon"></i></a>
       <div class="description">
         <p>Expectations for a Software Engineer at Think Through Math. Note that some expectations are industry-specific.</p>
       </div>
@@ -165,7 +165,7 @@ permalink: /tools.html
       </a>
     </div>
     <div class="content">
-      <a href="https://github.com/ex-ttmers/values-and-expectations/blob/master/senior_software_engineer.md" target="_blank">Senior Software Engineer <i class="external alternate icon"></i></a>
+      <a href="https://github.com/ex-ttmers/values-and-expectations/blob/master/senior_software_engineer.md" target="_blank" class="header">Senior Software Engineer <i class="external alternate icon"></i></a>
       <div class="description">
         <p>Expectations for a Senior Software Engineer at Think Through Math. Note that some expectations are industry-specific.</p>
       </div>
@@ -190,13 +190,39 @@ permalink: /tools.html
 <a name="interview_scenario"></a>
 <div class="ui segment">
   <p>This section contains links to interview scenarios and take-home tests. Typically these are used in conjunction with more traditional interview questions to try and evaluate a candidate's skills. Be careful however - interview scenarios can be controversial because they take a lot of a candidate's time and can discriminate against candidates who have responsibilities that limit their availability to work off-hours.</p>
-  <p>If you have a scenario you'd like to share, either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page using an existing interview question link as a template.</p>
+  <p>If you have a scenario you'd like to share, either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page.</p>
 </div>
 <div class="ui divider"></div>
 <div class="ui divided items">
   <div class="item">
+    <div class="ui tiny image">
+      <a href="https://github.com/volunteermatch/interview-exercises/tree/master/java" target="_blank" class="ui tiny image">
+        <img src="https://avatars3.githubusercontent.com/u/393656?s=280&v=4">
+      </a>
+    </div>
     <div class="content">
-      <a href="http://www.venturegrit.com/what-everybody-ought-to-know-about-the-product-manager-case-interview/" target="_blank">Product Manager Case Interview <i class="external alternate icon"></i></a>
+      <a href="https://github.com/volunteermatch/interview-exercises/tree/master/java" target="_blank" class="header">Simple Interview Exercises <i class="external alternate icon"></i></a>
+      <div class="description">
+        <p>A few very simple interview exercises, written in java. Examples include building a <href="https://github.com/volunteermatch/interview-exercises/tree/master/java/calculator" target="_blank">basic calculator</a>, generating <a href="https://github.com/volunteermatch/interview-exercises/tree/master/java/friendlyurl" target="_blank">search-engine friendly URLs</a>, and implementing a <a href="https://github.com/volunteermatch/interview-exercises/tree/master/java/simplehashmap" target="_blank">simple hashmap</a>.</p>
+        <p>These would be good for using with a more junior developer or for someone you are considering whose only development experience is at a coding bootcamp.</p>
+      </div>
+      <div class="extra">
+        <div class="meta">
+          <div class="meta">
+            <div class="ui grey label">Source
+              <a class="detail" href="https://github.com/volunteermatch" target="_blank">Volunteermatch</a>
+            </div>
+            <div class="ui grey label">License
+              unknown
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="item">
+    <div class="content">
+      <a href="http://www.venturegrit.com/what-everybody-ought-to-know-about-the-product-manager-case-interview/" target="_blank" class="header">Product Manager Case Interview <i class="external alternate icon"></i></a>
       <div class="description">
         <p>An article on screening product managers. It has a pretty good case interview scenario included although it's not specific. This is probably not enough for you to use to write a Product Manager interview scenario by itself, but it will definitely help inform your thinking, and there are very few open resources in this area.</p>
       </div>
@@ -204,7 +230,7 @@ permalink: /tools.html
         <div class="meta">
           <div class="meta">
             <div class="ui grey label">Source
-              <a class="detail" href="http://www.venturegrit.com/author/andy/" target="_blank">Continuum Analytics, Inc.</a>
+              <a class="detail" href="http://www.venturegrit.com/author/andy/" target="_blank">Venturegrit</a>
             </div>
             <div class="ui grey label">License
               unknown
@@ -230,7 +256,7 @@ permalink: /tools.html
       </a>
     </div>
     <div class="content">
-      <a href="https://github.com/ContinuumIO/interview-questions" target="_blank">Continuum Analytics interview questions <i class="external alternate icon"></i></a>
+      <a href="https://github.com/ContinuumIO/interview-questions" target="_blank" class="header">Continuum Analytics interview questions <i class="external alternate icon"></i></a>
       <div class="description">
         <p>A list of software-developer-specific interview questions, meant to be answered before an interview (as part of the resume submission).</p>
       </div>
@@ -257,7 +283,7 @@ permalink: /tools.html
       </a>
     </div>
     <div class="content">
-      <a href="https://h5bp.github.io/Front-end-Developer-Interview-Questions/" target="_blank">Front-end developer interview questions <i class="external alternate icon"></i></a>
+      <a href="https://h5bp.github.io/Front-end-Developer-Interview-Questions/" target="_blank" class="header">Front-end developer interview questions <i class="external alternate icon"></i></a>
       <div class="description">
         <p>An extremely in-depth and well-curated list of interview questions mainly for front-end web developers. Covers HTML, CSS, JS, coding, and 'fun' categories.</p>
       </div>
@@ -282,7 +308,7 @@ permalink: /tools.html
       </a>
     </div>
     <div class="content">
-      <a href="https://github.com/dashvlas/awesome-ios-interview" target="_blank">iOS developer interview questions <i class="external alternate icon"></i></a>
+      <a href="https://github.com/dashvlas/awesome-ios-interview" target="_blank" class="header">iOS developer interview questions <i class="external alternate icon"></i></a>
       <div class="description">
         <p>iOS developer interview questions. Unfortunately the content is only available as <a href="http://appstore.com/awesomeinterview" target="_blank">an app</a>.</p>
       </div>
@@ -302,12 +328,71 @@ permalink: /tools.html
   </div>
 </div>
 
-<h2 class="ui header">1-1 Meeting Topics & Questions</h2>
-
+<h2 class="ui header">1-1 Meeting Templates, Topics, and Questions</h2>
+<a name="interview_questions"></a>
+<div class="ui segment">
+  <p>This section is all about the 1-1 meeting. Done well, the 1-1 meeting can be the single biggest contributor to a team member's satisfaction with their job, their manager, and the company. But it's tricky to get right because of how open-ended and unstructured the meeting can be.</p>
+  <p>If you have  agendas, topic suggestions, articles, or other resources to share, I'd love to post them. Either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page.</p>
+</div>
+<div class="ui divider"></div>
+<div class="ui divided items">
+  <div class="item">
+    <div class="content">
+      <a href="https://status.net/templates/one-on-one-meeting-template/" target="_blank" class="header">1-1 Meeting Questions and Agenda <i class="external alternate icon"></i></a>
+      <div class="description">
+        <p>An excellent overview of what a 1-1 meeting is, why it's valuable, and how to structure them for success. Also includes an agenda template (in MS Word .doc and .docx format) with more than a dozen suggested open-ended questions to stimulate conversation. This is a good place to start if you're building a process for 1-1 meetings.</p>
+      </div>
+      <div class="extra">
+        <div class="meta">
+          <div class="meta">
+            <div class="ui grey label">Source
+              <a class="detail" href="https://status.net/" target="_blank">Status.net</a>
+            </div>
+            <div class="ui grey label">License
+              unknown
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <h2 class="ui header">Diversity &amp; Inclusion</h2>
 
 <h2 class="ui header">Objectives &amp; Key Results (OKR)</h2>
-
+<a name="okr"></a>
+<div class="ui segment">
+  <p>OKRs are a very popular framework for managing against a set of objectives at all levels of the company. It's even got its own <a href="https://en.wikipedia.org/wiki/OKR" target="_blank">Wikipedia page</a>! Even if your company hasn't implemented OKR, one of the nice things about hte framework is you can still implement it for just you and your team. As engineers, we know that we can't improve a codebase unless we can measure it objectively; its performance, its scalability, quality metrics, etc. Think of OKR as measurement for your team's goals and objectives.</p>
+  <p>Have an OKR tool or template to share? Either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page.</p>
+</div>
+<div class="ui divider"></div>
+<div class="ui divided items">
+  <div class="item">
+    <div class="ui tiny image">
+      <a href="https://docs.google.com/spreadsheets/d/1DGOSjkW70bYsgtubVoEYNi65cS4U9po4GGUTpfhEVOk" target="_blank" class="ui tiny image">
+        <img src="https://www.weekdone.com/ico/apple-touch-icon-144-precomposed.png">
+      </a>
+    </div>
+    <div class="content">
+      <a href="https://docs.google.com/spreadsheets/d/1DGOSjkW70bYsgtubVoEYNi65cS4U9po4GGUTpfhEVOk" target="_blank" class="header">OKR report spreadsheet template by Weekdone <i class="external alternate icon"></i></a>
+      <div class="description">
+        <p>An OKR template implemented in Google Sheets. Make a copy and customize as you see fit. It's also worth reading the <a href="https://weekdone.com/resources/templates/okr-report-spreadsheet-template" target="_blank">accompanying article</a>, which also includes a number of other OKR-related templates.</p>
+      </div>
+      <div class="extra">
+        <div class="meta">
+          <div class="meta">
+            <div class="ui grey label">Source
+              <a class="detail" href="https://weekdone.com/" target="_blank">Weekdone</a>
+            </div>
+            <div class="ui grey label">License
+              unknown
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <h2 class="ui header">10% Time/Hackathon Frameworks</h2>
 
 <h2 class="ui header">Post-Natum/Post-Mortem Meeting Processes</h2>
