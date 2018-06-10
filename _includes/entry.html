@@ -1,0 +1,31 @@
+<div class="item">
+  {% if entry.author_image %}
+    <div class="ui tiny image">
+      <a href="{{ entry.link }}" target="_blank" class="ui tiny image">
+        <img src="{{ entry.author_image }}">
+      </a>
+    </div>
+  {% endif %}
+  <div class="content">
+    <a href="{{ entry.link }}" target="_blank" class="header">{{ entry.title }} <i class="external alternate icon"></i></a>
+    <div class="description">
+      {{ entry.content }}
+    </div>
+    <div class="extra">
+      <div class="meta">
+        <div class="meta">
+          <div class="ui grey label">Source
+            <a class="detail" href="{{ entry.source.link }}" target="_blank">{{ entry.source.name }}</a>
+          </div>
+          <div class="ui grey label">License
+            {% if entry.license.link %}
+              <a class="detail" rel="license"  href="{{ entry.license.link }}" target="_blank">{{ entry.license.name }}</a>
+            {% else %}
+              {{ entry.license.name }}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

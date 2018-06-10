@@ -29,9 +29,43 @@ social:
     - https://twitter.com/jameswrubel
     - https://github.com/jwrubel
 
+collections_dir: tools
 collections:
-  content:
+  job_descriptions:
     output: true
+    pretty_name: Job Descriptions
+    about_text: "<p>This section contains links to job descriptions for various technical roles. We don't include links to posts on job boards because those aren't guaranteed to be accessible beyond the duration of the post.</p>"
+  career_ladders:
+    output: true
+    pretty_name: Career Ladders
+    about_text: |
+      <p>This section contains links to career ladders and position expectations for technical staff. Not sure what a career ladder is or why your organization should have one? The <a href="https://en.wikipedia.org/wiki/Career_ladder" target="_blank">Wikipedia page</a> is a good place to start your research.</p><p>If your organization has published their career ladder, I'd love to link to it. Either <a href="contributing.html#contact">contact me</a> or you can submit a <a href="contributing.html">PR</a> to this page using an existing career ladder link as a template.</p>
+  okr_tools:
+    output: true
+    pretty_name: Objectives &amp; Key Results (OKR)
+    about_text: |
+      <p>This section contains links to career ladders and position expectations for technical staff. Not sure what a career ladder is or why your organization should have one? The <a href="https://en.wikipedia.org/wiki/Career_ladder" target="_blank">Wikipedia page</a> is a good place to start your research.</p><p>If your organization has published their career ladder, I'd love to link to it. Either <a href="contributing.html#contact">contact me</a> or you can submit a <a href="contributing.html">PR</a> to this page using an existing career ladder link as a template.</p>
+  1-1_meetings:
+    output: true
+    pretty_name: 1-1 Meeting Templates, Topics, and Questions
+    about_text: |
+      <p>This section is all about the 1-1 meeting. Done well, the 1-1 meeting can be the single biggest contributor to a team member's satisfaction with their job, their manager, and the company. But it's tricky to get right because of how open-ended and unstructured the meeting can be.</p><p>If you have  agendas, topic suggestions, articles, or other resources to share, I'd love to post them. Either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page.</p>
+  interview_questions:
+    output: true
+    pretty_name: Interview Question Banks
+    about_text: |
+      <p>This section contains links to questions you can use to develop technical questions for candidates, either to ask in an interview or for candidates to fill out as part of an application.</p><p>If you have questions you've developed and are willing to share, I'd love to link to it. Either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page using an existing interview question link as a template.</p>
+  interview_tests:
+    output: true
+    pretty_name: Technical Interview Take-Home Tests & Scenarios
+    about_text: |
+      <p>This section contains links to interview scenarios and take-home tests. Typically these are used in conjunction with more traditional interview questions to try and evaluate a candidate's skills. Be careful however - interview scenarios can be controversial because they take a lot of a candidate's time and can discriminate against candidates who have responsibilities that limit their availability to work off-hours.</p><p>If you have a scenario you'd like to share, either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page.</p>
+defaults:
+  - scope:
+      permalink: /tools/:name
+      type: tools
+    values:
+      layout: entry
 
 languages: ["en"]
 ampdir: amp
