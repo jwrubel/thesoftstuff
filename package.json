@@ -1,11 +1,11 @@
 {
-  "name": "Jekyll-webpack-boilerplate",
-  "version": "1.0.0",
-  "description": "A boilerplate with Jekyll and Webpack to make the most performant static websites",
+  "name": "the-soft-stuff",
+  "version": "0.2.0",
+  "description": "Openly-licensed job descriptions, interview questions, career ladders, tools and resources. Like npm, but for technical managers and leaders.",
   "main": "src/index.js",
-  "repository": "git@github.com:sandoche/Jekyll-webpack-boilerplate.git",
-  "author": "Sandoche Adittane <sandoche@gmail.com>",
-  "license": "MIT",
+  "repository": "git@github.com:jwrubel/thesoftstuff.git",
+  "author": "James Wrubel <jwrubel@gmail.com>",
+  "license": "GNU Free Documentation License",
   "scripts": {
     "start": "npm run-script clean:project; concurrently \"webpack --env=dev --progress --profile --colors; webpack-dev-server --env=dev\" \"bundle exec jekyll serve\"",
     "build": "npm run-script clean:project; npm run-script webpack:build; npm run-script webpack:optimize; npm run-script jekyll:build",
