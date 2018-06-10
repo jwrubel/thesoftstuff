@@ -60,6 +60,11 @@ collections:
     pretty_name: Technical Interview Take-Home Tests & Scenarios
     about_text: |
       <p>This section contains links to interview scenarios and take-home tests. Typically these are used in conjunction with more traditional interview questions to try and evaluate a candidate's skills. Be careful however - interview scenarios can be controversial because they take a lot of a candidate's time and can discriminate against candidates who have responsibilities that limit their availability to work off-hours.</p><p>If you have a scenario you'd like to share, either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page.</p>
+  interview_processes:
+    output: true
+    pretty_name: Interview Process Descriptions
+    about_text: |
+      <p>This section mainly includes articles, blog posts and descriptions of organizations' interview processes.</p><p>For an organization to write up and share information about their interview process, they must feel pretty strongly about it.</p><p>Since an interview process is more than just the document itself, these will take more effort to implement in your organization. Also I highly recommend getting HR involved here so you don't accidentally create a discriminatory process.</p><p>If you have an interview process you've developed and are willing to share, I'd love to link to it. Either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page.</p>
 defaults:
   - scope:
       permalink: /tools/:name
