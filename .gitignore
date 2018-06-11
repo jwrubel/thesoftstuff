@@ -6,3 +6,4 @@ assets
 optimization-fix-this-file-is-ignored.js
 yarn-error.log
 .yarnclean
+package-lock.json
