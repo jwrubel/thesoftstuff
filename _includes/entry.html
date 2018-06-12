@@ -1,11 +1,9 @@
 <div class="item">
-  {% if entry.author_image %}
     <div class="ui tiny image">
       <a href="{{ entry.link }}" target="_blank" class="ui tiny image">
-        <img src="{{ entry.author_image }}">
+        <img class="ui tiny rounded image" src="{{ entry.author_image }}">
       </a>
     </div>
-  {% endif %}
   <div class="content">
     <a href="{{ entry.link }}" target="_blank" class="header">{{ entry.title }} <i class="external alternate icon"></i></a>
     <div class="description">
