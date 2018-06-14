@@ -44,7 +44,7 @@ collections:
     output: true
     pretty_name: Objectives &amp; Key Results (OKR)
     about_text: |
-      <p>This section contains links to career ladders and position expectations for technical staff. Not sure what a career ladder is or why your organization should have one? The <a href="https://en.wikipedia.org/wiki/Career_ladder" target="_blank">Wikipedia page</a> is a good place to start your research.</p><p>If your organization has published their career ladder, I'd love to link to it. Either <a href="contributing.html#contact">contact me</a> or you can submit a <a href="contributing.html">PR</a> to this page using an existing career ladder link as a template.</p>
+      <p><a href="https://en.wikipedia.org/wiki/OKR" target="_blank">Objectives &amp; Key Results</a> is an organizational goals and objectives management framework created by Andy Grove at Intel and made famous at Google and other companies.</p><p>There are not many tools for it because it itself <em>is</em> a tool, but if you are looking for a way to set goals and objectives for your team, OKR is a great place to start.</p><p>If you've got a link to an OKR tool or process I'd love to link to it. Either <a href="contributing.html#contact">contact me</a> or you can submit a <a href="contributing.html">PR</a> to this page.</p>
   1-1_meetings:
     output: true
     pretty_name: 1-1 Meeting Templates, Topics, and Questions
