@@ -70,6 +70,11 @@ collections:
     pretty_name: Diversity & Inclusion
     about_text: |
       <p>This section includes publications on how to incorporate D&I as key component of your organizational strategy. It also includes examples of organizations that are having success with D&I initiatives or are doing a good job of being transparent about their progress and their goals.</p><p>If you have a success story or you work for an organization that publishes D&I metrics and goals and are willing to share, I'd love to link to it. Either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page.</p>
+  managing_up:
+    output: true
+    pretty_name: Managing Up
+    about_text: |
+      <p>This is a category for individual contributors (although mid-level managers will find it useful, too). We expect our managers to have all the answers (and many of them manage like they do!), but sometimes they need a little guidance.</p><p>If you're struggling to find ways to work with your manager, or maybe you aspire to manage one day, articles in this section might help. Because this is more of a strategic topic, these tools may not be as easy to put in to practice, but they're still worth the read.</p><p>If you have aan article on managing up I'd love to link to it. Either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page.</p>
 defaults:
   - scope:
       permalink: /tools/:name
