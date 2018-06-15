@@ -74,7 +74,12 @@ collections:
     output: true
     pretty_name: Managing Up
     about_text: |
-      <p>This is a category for individual contributors (although mid-level managers will find it useful, too). We expect our managers to have all the answers (and many of them manage like they do!), but sometimes they need a little guidance.</p><p>If you're struggling to find ways to work with your manager, or maybe you aspire to manage one day, articles in this section might help. Because this is more of a strategic topic, these tools may not be as easy to put in to practice, but they're still worth the read.</p><p>If you have aan article on managing up I'd love to link to it. Either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page.</p>
+      <p>This is a category for individual contributors (although mid-level managers will find it useful, too). We expect our managers to have all the answers (and many of them manage like they do!), but sometimes they need a little guidance.</p><p>If you're struggling to find ways to work with your manager, or maybe you aspire to manage one day, articles in this section might help. Because this is more of a strategic topic, these tools may not be as easy to put in to practice, but they're still worth the read.</p><p>If you have an article on managing up I'd love to link to it. Either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page.</p>
+  other_resources:
+    output: true
+    pretty_name: Miscellaneous Resources
+    about_text: |
+      <p>For those rare moments when you're not looking for help fighting that one specific fighter, there are some great resources you can take advantage of in your quest to become better as a leader and manager.</p><p>These aren't necessarily things you can put in to practice right away, but they're definitely worth your time.</p><p>If you have a book, article, newsletter, or other resource that you think would be valuable, please share!. Either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page.</p>
 defaults:
   - scope:
       permalink: /tools/:name
