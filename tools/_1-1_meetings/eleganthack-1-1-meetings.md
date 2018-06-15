@@ -9,4 +9,4 @@ license:
   link:
   name: unknown
 ---
-<p>A very good overview of how to position the 1:1 meeting for success. This article focuses on the GROW framework for structuring the meeting: <strong>G</strong>oals, <strong>R</strong>reality, <strong>O</strong>ptions, and <strong>W</strong>rap-up.</p>
+<p>A very good overview of how to position the 1:1 meeting for success. This article focuses on the GROW framework for structuring the meeting: <strong>G</strong>oals, <strong>R</strong>eality, <strong>O</strong>ptions, and <strong>W</strong>rap-up.</p>
