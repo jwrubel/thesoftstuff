@@ -82,9 +82,9 @@ collections:
       <p>For those rare moments when you're not looking for help fighting that one specific fighter, there are some great resources you can take advantage of in your quest to become better as a leader and manager.</p><p>These aren't necessarily things you can put in to practice right away, but they're definitely worth your time.</p><p>If you have a book, article, newsletter, or other resource that you think would be valuable, please share!. Either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page.</p>
   feedback_and_praise:
     output: true
-    pretty_name: Feedback and Praise
+    pretty_name: Performance Reviews, Feedback, and Praise
     about_text: |
-      <p>Performance reviews and feedback are tasks that are typically brand new to people coming to management from individual contributor roles. Writing effective feedback can be a challenge for technical people who are taught to be concise when writing.</p><p>But your team needs feedback and guidance on their performance. And whether we like to admit it or not, everyone likes being thanked for their work.</p><p>If you have a book, article, newsletter, or other resource that you think would be valuable, please share!. Either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page.</p>
+      <p>Performance reviews and feedback are tasks that are typically brand new to people coming to management from individual contributor roles. Writing effective feedback can be a challenge for technical people who are taught to be concise when writing. And notably, younger generations find the process of performance reviews <a href="https://www.tinypulse.com/blog/difference-in-perception-between-generations" target="_blank">more stressful</a>.</p><p>But your team needs feedback and guidance on their performance. And whether we like to admit it or not, everyone likes being thanked for their work.</p><p>If you have a book, article, newsletter, or other resource that you think would be valuable, please share!. Either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page.</p>
 defaults:
   - scope:
       permalink: /tools/:name
