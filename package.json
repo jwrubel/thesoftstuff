@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "repository": "git@github.com:jwrubel/thesoftstuff.git",
   "author": "James Wrubel <jwrubel@gmail.com>",
-  "license": "GNU Free Documentation License",
+  "license": "GFDL-1.3-or-later",
   "scripts": {
     "start": "npm run-script clean:project; concurrently \"webpack --env=dev --progress --profile --colors; webpack-dev-server --env=dev\" \"bundle exec jekyll serve\"",
     "build": "npm run-script clean:project; npm run-script webpack:build; npm run-script webpack:optimize; npm run-script jekyll:build",
