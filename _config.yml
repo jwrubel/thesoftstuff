@@ -85,6 +85,11 @@ collections:
     pretty_name: Performance Reviews, Feedback, and Praise
     about_text: |
       <p>Performance reviews and feedback are tasks that are typically brand new to people coming to management from individual contributor roles. Writing effective feedback can be a challenge for technical people who are taught to be concise when writing. And notably, younger generations find the process of performance reviews <a href="https://www.tinypulse.com/blog/difference-in-perception-between-generations" target="_blank">more stressful</a>.</p><p>But your team needs feedback and guidance on their performance. And whether we like to admit it or not, everyone likes being thanked for their work.</p><p>If you have a book, article, newsletter, or other resource that you think would be valuable, please share!. Either <a href="contributing.html#contact">contact me</a> for help or you can submit a <a href="contributing.html">PR</a> to this page.</p>
+  building_culture:
+    output: true
+    pretty_name: Building Culture
+    about_text: |
+      <p>As a manager and leader your buggest impact will be on the culture. It's intangible and difficult to measure but it is a huge part of growing and retaining your team. And it changes over time; the culture you build for a group of five isn't the same as for 500.</p>
 defaults:
   - scope:
       permalink: /tools/:name
