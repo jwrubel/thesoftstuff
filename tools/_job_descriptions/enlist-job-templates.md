@@ -1,5 +1,5 @@
 ---
-link: https://enlist.io/job-description-templates/information-technology
+link: https://enlist.io/resources/job-description-templates/information-technology
 author_image:
 title: "Various Technical Job Description Templates"
 source:
